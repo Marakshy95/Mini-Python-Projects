@@ -21,7 +21,7 @@ screen.listen()
 screen.onkeypress(paddle.up, "Up")
 screen.onkeypress(paddle.down, "Down")
 
-    
+
 
 is_on = True
 
