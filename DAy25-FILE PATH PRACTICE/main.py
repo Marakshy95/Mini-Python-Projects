@@ -13,11 +13,15 @@ data = pandas.read_csv("50_states.csv")
 all_states_list = data.state.to_list()
 
 # to get a specific state information line!
-state_info = data[data.state == "Iowa"]  <<< important
+state_info = data[data.state == "Iowa"]  #<<< important
 
 
 
+# get to a row 
 
+for (index, row) in data.iterrows():       #<<< even morfe important
+    if row.student == "angela":
+        print(row.score)
 
 
 
